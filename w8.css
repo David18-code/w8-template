@@ -1,0 +1,242 @@
+.container{
+    color: white;
+}
+.start{
+    color: white;
+    margin-left: 9%;
+}
+@keyframes background-div {
+    0%{
+        background-color: rgba(0, 128, 0, 0.586);
+    }
+    25%{
+        background-color: rgb(255, 110, 20);
+    }
+    50%{
+        background-color: rgba(217, 185, 207, 0.586);
+    }
+    75%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: red;
+    }
+}
+.background{
+    background-color: rgb(11, 7, 82);
+    animation: background-div linear 30s infinite;
+}
+.row-1{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr 4fr;
+    margin-top: 6%;
+}
+.col-1{
+    background-color: rgb(75, 168, 159);
+    margin-right: -3em;
+    margin-left: 45%;
+    padding: 2em;
+    color: white;
+}
+.col-1:hover{
+    background-color: rgb(19, 101, 13);
+}
+.col-2{
+    background: purple;
+    margin-right: 2px;
+    margin-left: 20%;
+    padding: 2em;
+    color:pink ;
+}
+.col-2:hover{
+    background-color: rgb(255, 0, 221);
+}
+.col-3{
+    background: rgb(0, 64, 128);
+    margin-left: 20%;
+    padding: 2em;
+    color: lightcyan;
+}
+.col-3:hover{
+    background-color:rgb(108, 139, 225);
+}
+.col-4{
+    background: rgb(0, 128, 26);
+    margin-left: 10%;
+    padding: 2em;
+    color: aliceblue;
+}
+.col-4:hover{
+    background-color: rgb(125, 197, 143);
+}
+.col-5{
+    background: rgb(199, 211, 207);
+    margin-left: 20%;
+    margin-right: 25%;
+    padding: 3em;
+    color: black;
+}
+.col-5:hover{
+    background-color: rgb(102, 135, 67);
+}
+.col-6{
+    background-color: orange;
+    margin-right: -3em;
+    margin-left: 45%;
+    padding: 2em;
+    margin-top: 12%;
+    color: aquamarine;
+}
+.col-6:hover{
+    background-color: rgb(226, 157, 39);
+}
+.col-7{
+    background: rgb(75, 168, 159);
+    margin-right: 2px;
+    margin-left: 20%;
+    padding: 2em;
+    margin-top: 12%;
+    color: whitesmoke;
+}
+.col-7:hover{
+    background-color: rgb(39, 226, 136);
+}
+.col-8{
+    background: purple;
+    margin-left: 20%;
+    padding: 2em;
+    margin-top: 20%;
+    color: white;
+}
+.col-8:hover{
+    background-color: rgb(204, 39, 226);
+}
+.col-9{
+    background: rgb(0, 64, 128);
+    margin-left: 10%;
+    padding: 2em;
+    margin-top: 20%;
+    color: white;
+}
+.col-9:hover{
+    background-color: rgb(114, 122, 162);
+}
+.col-10{
+    background: rgb(75, 168, 159);
+    margin-left: 20%;
+    margin-right: 25%;
+    padding: 3em;
+    margin-top: 6%;
+    color: blue;
+}
+.col-10:hover{
+    background-color: rgb(39, 226, 136);
+}
+.col-11{
+    background-color: purple;
+    margin-right: -3em;
+    margin-left: 45%;
+    padding: 2em;
+    margin-top: 12%;
+    color: lightgrey;
+}
+.col-11:hover{
+    background-color: rgb(192, 39, 226);
+}
+.col-12{
+    background: green;
+    margin-right: 2px;
+    margin-left: 20%;
+    padding: 2em;
+    margin-top: 12%;
+    color: skyblue;
+}
+.col-12:hover{
+    background-color: rgb(117, 226, 39);
+}
+.col-13{
+    background: rgb(174, 37, 174);
+    margin-left: 20%;
+    padding: 2em;
+    margin-top: 20%;
+    color: wheat;
+}
+.col-13:hover{
+    background-color: rgb(226, 39, 151);
+}
+.col-14{
+    background: rgb(0, 128, 26);
+    margin-left: 10%;
+    padding: 2em;
+    margin-top: 20%;
+    color: burlywood;
+}
+.col-14:hover{
+    background-color: rgb(39, 226, 139);
+}
+.col-15{
+    background: purple;
+    margin-left: 20%;
+    margin-right: 25%;
+    padding: 3em;
+    margin-top: 6%;
+    color: peru;
+}
+.col-15:hover{
+    background-color: rgb(223, 174, 225);
+}
+.col-16{
+    background-color: skyblue;
+    margin-right: -3em;
+    margin-left: 45%;
+    padding: 2em;
+    margin-top: 12%;
+    color: olivedrab;
+}
+.col-16:hover{
+    background-color: rgb(39, 157, 226);
+}
+.col-17{
+    background: blue;
+    margin-right: 2px;
+    margin-left: 20%;
+    padding: 2em;
+    margin-top: 12%;
+    color: red;
+}
+.col-17:hover{
+    background-color: rgb(123, 39, 226);
+}
+.col-18{
+    background: purple;
+    margin-left: 20%;
+    padding: 2em;
+    margin-top: 20%;
+    color: bisque;
+}
+.col-18:hover{
+    background-color: rgb(226, 39, 139);
+    text-decoration: line-through;
+}
+.col-19{
+    background: rgb(0, 64, 128);
+    margin-left: 10%;
+    padding: 2em;
+    margin-top: 23%;
+    color: white;
+}
+.col-19:hover{
+    background-color: skyblue;
+}
+.col-20{
+    background: rgb(75, 168, 159);
+    margin-left: 20%;
+    margin-right: 25%;
+    padding: 3em;
+    margin-top: 6%;
+    color: blueviolet;
+}
+.col-20:hover{
+    background-color: rgb(17, 60, 52);
+
+}
